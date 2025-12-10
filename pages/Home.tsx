@@ -18,20 +18,20 @@ const StarRating = ({ rating }: { rating: number }) => (
 );
 
 
-const heroBackground = new URL('../assets/images/remapping-southport-merseyside.webp', import.meta.url).href;
+const heroBackground = new URL('../assets/images/remapping-sthelens-merseyside.webp', import.meta.url).href;
 
 const workshopGallery = [
   {
-    src: new URL('../assets/images/car-remapping-southport.webp', import.meta.url).href,
-    alt: 'Car remapping workshop southport merseyside',
+    src: new URL('../assets/images/car-remapping-sthelens.webp', import.meta.url).href,
+    alt: 'Car remapping workshop St Helens merseyside',
   },
   {
-    src: new URL('../assets/images/car-tuning-southport.webp', import.meta.url).href,
+    src: new URL('../assets/images/car-tuning-sthelens.webp', import.meta.url).href,
     alt: 'engine remapping near me',
   },
   {
-    src: new URL('../assets/images/remap-southport.webp', import.meta.url).href,
-    alt: 'High-performance car engine tuning southport',
+    src: new URL('../assets/images/remap-sthelens.webp', import.meta.url).href,
+    alt: 'High-performance car engine tuning St Helens',
   },
 ];
 
@@ -42,7 +42,7 @@ const featuredTestimonials: Testimonial[] = [
     car: 'BMW 320d'
   },
   {
-    quote: "Best decision I made for my Audi. The car feels completely transformed, and the service in Southport was top-notch. Highly recommend!",
+    quote: "Best decision I made for my Audi. The car feels completely transformed, and the service in St Helens was top-notch. Highly recommend!",
     name: 'Sarah Mitchell',
     car: 'Audi A4'
   },
@@ -56,27 +56,27 @@ const featuredTestimonials: Testimonial[] = [
 const faqData = [
   {
     question: "What is car remapping and how does it work?",
-    answer: "Car remapping, also known as ECU tuning, updates your car's engine software to improve performance, torque, and fuel efficiency. Our Southport remapping experts use professional tools for safe and reliable results."
+    answer: "Car remapping, also known as ECU tuning, updates your car's engine software to improve performance, torque, and fuel efficiency. Our St Helens remapping experts use professional tools for safe and reliable results."
   },
   {
     question: "Is ECU remapping safe for my car?",
-    answer: "Yes. Our Southport ECU remapping service includes full diagnostics before and after tuning to ensure your car is safe and running perfectly."
+    answer: "Yes. Our St Helens ECU remapping service includes full diagnostics before and after tuning to ensure your car is safe and running perfectly."
   },
   {
-    question: "What are the benefits of a car remap in Southport?",
-    answer: "A professional car remap can boost acceleration, increase torque, and improve fuel economy. Our Southport remapping specialists can tailor the tune to your driving style."
+    question: "What are the benefits of a car remap in St Helens?",
+    answer: "A professional car remap can boost acceleration, increase torque, and improve fuel economy. Our St Helens remapping specialists can tailor the tune to your driving style."
   },
   {
     question: "How do I know if my car needs a remap or diagnostics check?",
-    answer: "If your car feels sluggish, has poor MPG, or displays an engine light, book a car diagnostics test in Southport. We'll find issues and advise if a remap will help."
+    answer: "If your car feels sluggish, has poor MPG, or displays an engine light, book a car diagnostics test in St Helens. We'll find issues and advise if a remap will help."
   },
   {
-    question: "What happens during a car diagnostics test in Southport?",
+    question: "What happens during a car diagnostics test in St Helens?",
     answer: "Our engine diagnostics service connects to your ECU to scan fault codes and identify performance or electrical issues before tuning."
   },
   {
     question: "How long does a remap take?",
-    answer: "Most Southport ECU remaps take 1–2 hours including a full diagnostic scan before and after tuning."
+    answer: "Most St Helens ECU remaps take 1–2 hours including a full diagnostic scan before and after tuning."
   }
 ];
 
@@ -123,7 +123,7 @@ const Home: React.FC = () => {
       <section className="relative bg-brand-darker text-white overflow-hidden">
         <img
           src={heroBackground}
-          alt="Southport Remapping Hero"
+          alt="St Helens Remapping Hero"
           className="absolute inset-0 w-full h-full object-cover opacity-20"
           fetchPriority="high"
         />
@@ -132,13 +132,13 @@ const Home: React.FC = () => {
         <div className="pointer-events-none absolute -bottom-16 -left-10 h-72 w-72 rounded-full bg-brand-red-500/20 blur-[120px] animate-pulse-glow"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-20 text-center z-10 space-y-6">
             <h1 className="text-4xl md:text-6xl font-bold text-brand-red-600 uppercase leading-tight tracking-wide animate-fade-in-up">
-              Remapping Southport
+              Remapping St Helens
               <span className="block text-2xl md:text-3xl font-semibold text-brand-red-600 tracking-normal mt-4">
                 ECU Remap Specialists
               </span>
             </h1>
             <p className="max-w-2xl mx-auto text-lg text-gray-200 animate-fade-in-up [animation-delay:0.12s]">
-            Remapping Southport Renko mobile professional ECU car remap services and car tuning. Unlock your vehicle's true potential with expert car remaps in Southport.
+            Remapping St Helens Renko mobile professional ECU car remap services and car tuning. Unlock your vehicle's true potential with expert car remaps in St Helens.
             </p>
             <div className="mt-6 flex justify-center items-center gap-4 flex-wrap animate-fade-in-up [animation-delay:0.24s]">
               <Link to="/contact" className="group bg-gradient-to-r from-brand-red-600 via-[#ff6a00] to-brand-red-700 text-white font-bold py-3.5 px-10 rounded-full transition-all duration-300 text-lg shadow-[0_20px_45px_rgba(239,0,0,0.35)] hover:shadow-[0_25px_60px_rgba(239,0,0,0.45)] hover:-translate-y-1">
@@ -180,8 +180,8 @@ const Home: React.FC = () => {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-extrabold text-brand-darker">Our Services</h2>
-          <p className="mt-2 text-gray-600 max-w-4xl mx-auto">Professional mobile remapping Southport and engine tuning services. From ECU remapping to performance upgrades, we've got you covered.</p>
-          <p className="mt-2 text-gray-600 max-w-4xl mx-auto">Transform your driving experience with professional car remapping Southport services from Renko Remaps. Our ECU remap specialists reprogram engine parameters to unlock hidden power, increase torque, and improve fuel efficiency. 
+          <p className="mt-2 text-gray-600 max-w-4xl mx-auto">Professional mobile remapping St Helens and engine tuning services. From ECU remapping to performance upgrades, we've got you covered.</p>
+          <p className="mt-2 text-gray-600 max-w-4xl mx-auto">Transform your driving experience with professional car remapping St Helens services from Renko Remaps. Our ECU remap specialists reprogram engine parameters to unlock hidden power, increase torque, and improve fuel efficiency.
                     </p> 
            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-12">
             {/* Service Item */}
@@ -295,10 +295,10 @@ const Home: React.FC = () => {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl md:text-4xl font-extrabold text-brand-darker">Why Choose Renko?</h2>
-            <p className="mt-2 text-gray-600 max-w-4xl mx-auto">When it comes to car remapping in Southport, we're the trusted choice for performance and reliability. From Stage 1 remaps delivering 20-30% power gains to economy maps
-              maximizing MPG, we tailor every car tuning Southport service to your needs.</p>
+            <p className="mt-2 text-gray-600 max-w-4xl mx-auto">When it comes to car remapping in St Helens, we're the trusted choice for performance and reliability. From Stage 1 remaps delivering 20-30% power gains to economy maps
+              maximizing MPG, we tailor every car tuning St Helens service to your needs.</p>
             <p className="mt-2 text-gray-600 max-w-4xl mx-auto">Experience instant throttle response, smoother acceleration, and better overall performance. Our mobile engine remapping
-              service brings expert ECU tuning directly to you across Southport and Merseyside.
+              service brings expert ECU tuning directly to you across St Helens and Merseyside.
             </p> 
              <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
                 <div className="p-6 rounded-2xl border border-gray-200 bg-white shadow-lg shadow-gray-200/70 transition-all duration-300 hover:-translate-y-2">
@@ -313,14 +313,14 @@ const Home: React.FC = () => {
                       <svg className="h-10 w-10 text-brand-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
                     </div>
                     <h3 className="text-xl font-bold text-brand-darker text-center">Safe Remapping</h3>
-                    <p className="text-gray-600 mt-2 text-center">Every car remap Southport service includes comprehensive diagnostics before and after tuning. We work within safe operating limits, with all remaps fully tested, reversible, and backed up. Maintains warranty safety standards while delivering real performance improvements.</p>
+                    <p className="text-gray-600 mt-2 text-center">Every car remap St Helens service includes comprehensive diagnostics before and after tuning. We work within safe operating limits, with all remaps fully tested, reversible, and backed up. Maintains warranty safety standards while delivering real performance improvements.</p>
                 </div>
                  <div className="p-6 rounded-2xl border border-gray-200 bg-white shadow-lg shadow-gray-200/70 transition-all duration-300 hover:-translate-y-2">
                     <div className="flex items-center justify-center h-20 w-20 mx-auto mb-4 rounded-2xl bg-gradient-to-br from-brand-red-600/15 to-brand-red-600/5 text-brand-darker border border-brand-red-100 shadow-inner">
                       <svg className="h-10 w-10 text-brand-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M15 21a6 6 0 00-9-5.197m0 0A5.965 5.965 0 0112 13a5.965 5.965 0 013 2.197" /></svg>
                     </div>
                     <h3 className="text-xl font-bold text-brand-darker text-center">Expert Team</h3>
-                    <p className="text-gray-600 mt-2 text-center">Certified technicians with years of specialist ECU tuning and engine remapping experience across all vehicle types. From everyday cars to high-performance vehicles, we provide honest advice, transparent pricing, and professional service on every Southport car remap.</p>
+                    <p className="text-gray-600 mt-2 text-center">Certified technicians with years of specialist ECU tuning and engine remapping experience across all vehicle types. From everyday cars to high-performance vehicles, we provide honest advice, transparent pricing, and professional service on every St Helens car remap.</p>
                 </div>
             </div>
         </div>
@@ -331,8 +331,8 @@ const Home: React.FC = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl md:text-4xl font-extrabold text-brand-darker">Our Commitment</h2>
             <p className="mt-2 text-gray-600 max-w-4xl mx-auto"> Renko's customer service sets us apart. We value our clients and strive to build lasting relationships, ensuring that every interaction reflects our dedication to quality and support.</p> 
-               <p className="mt-2 text-gray-600 max-w-4xl mx-auto"> From your initial enquiry to post-remap aftercare, we're here to answer questions, provide honest advice,  
-              and ensure you're completely satisfied with your car remapping Southport experience.</p>
+               <p className="mt-2 text-gray-600 max-w-4xl mx-auto"> From your initial enquiry to post-remap aftercare, we're here to answer questions, provide honest advice,
+              and ensure you're completely satisfied with your car remapping St Helens experience.</p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-12">
                 {workshopGallery.map((image, index) => (
                   <img
@@ -353,7 +353,7 @@ const Home: React.FC = () => {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl md:text-4xl font-extrabold text-brand-darker text-center">What Our Customers Say</h2>
-          <p className="mt-2 text-gray-600 max-w-2xl mx-auto text-center">Don't just take our word for it - hear from satisfied customers across Southport.</p>
+          <p className="mt-2 text-gray-600 max-w-2xl mx-auto text-center">Don't just take our word for it - hear from satisfied customers across St Helens.</p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto mt-12">
             {featuredTestimonials.map((testimonial, index) => (
               <div key={index} className="bg-white p-8 rounded-2xl border border-gray-100 shadow-xl transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
@@ -383,7 +383,7 @@ const Home: React.FC = () => {
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-extrabold text-brand-red-600 mb-4">Frequently Asked Questions</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              Got questions about ECU remapping in Southport? Here are answers to our most common queries.
+              Got questions about ECU remapping in St Helens? Here are answers to our most common queries.
             </p>
           </div>
           <div className="max-w-4xl mx-auto">
@@ -396,7 +396,7 @@ const Home: React.FC = () => {
       <section className="relative overflow-hidden bg-brand-red-600 text-white">
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 text-center">
             <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight">Ready to Unlock Your Car's Potential?</h2>
-            <p className="mt-2 text-white/80 max-w-2xl mx-auto">Contact us today for a free consultation and discover how car remapping in Southport can transform your driving experience.</p>
+            <p className="mt-2 text-white/80 max-w-2xl mx-auto">Contact us today for a free consultation and discover how car remapping in St Helens can transform your driving experience.</p>
             <div className="mt-6 flex justify-center items-center gap-4 flex-wrap">
               <Link to="/contact" className="group bg-white text-brand-darker font-bold py-3.5 px-10 rounded-full transition-all duration-300 hover:-translate-y-1 hover:bg-gray-100">
                 Contact Us Today

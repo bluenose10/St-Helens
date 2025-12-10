@@ -25,7 +25,7 @@ const testimonialsData: Testimonial[] = [
         car: 'BMW 320d'
     },
     {
-        quote: "Best decision I made for my Audi. The car feels completely transformed, and the service in Southport was top-notch. Highly recommend!",
+        quote: "Best decision I made for my Audi. The car feels completely transformed, and the service in St Helens was top-notch. Highly recommend!",
         name: 'Sarah Mitchell',
         car: 'Audi A4'
     },
@@ -45,7 +45,7 @@ const testimonialsData: Testimonial[] = [
         car: 'Audi A3 2.0 TDI'
     },
     {
-        quote: "If you're looking for an ECU remap near you in Southport, look no further. These guys are the best in the business. 10/10.",
+        quote: "If you're looking for an ECU remap near you in St Helens, look no further. These guys are the best in the business. 10/10.",
         name: 'David L.',
         car: 'Ford Focus ST'
     }
@@ -57,7 +57,7 @@ const TestimonialsPage: React.FC = () => {
             <PageHero
               eyebrow="Testimonials"
               title="What our customers say"
-              subtitle="Hear from satisfied clients about our tuning services in Southport."
+              subtitle="Hear from satisfied clients about our tuning services in St Helens."
             />
 
             <main className="py-20 bg-white">

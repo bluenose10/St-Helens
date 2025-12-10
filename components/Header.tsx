@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { NavLink, Link } from 'react-router-dom';
 
-const logo = new URL('../assets/images/remapping-southport.webp', import.meta.url).href;
+const logo = new URL('../assets/images/remapping-sthelens.webp', import.meta.url).href;
 
 const NavLinks = ({ isMobile, closeMenu }: { isMobile?: boolean, closeMenu?: () => void }) => {
   const links = [
@@ -50,14 +50,14 @@ const Header: React.FC = () => {
           <Link to="/" className="flex items-center gap-3" onClick={closeMenu}>
               <img
                 src={logo}
-                alt="Renko Remapping Southport"
+                alt="Renko Remapping St Helens"
                 width="40"
                 height="40"
                 className="h-10 w-auto object-contain"
               />
             <div className="sr-only">
               <h1>Renko</h1>
-              <p>Remapping Southport</p>
+              <p>Remapping St Helens</p>
             </div>
           </Link>
 

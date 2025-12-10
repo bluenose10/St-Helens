@@ -9,7 +9,7 @@ const About: React.FC = () => {
       <PageHero
         eyebrow="About"
         title="Driven by precision"
-        subtitle="Southport's trusted experts in performance and economy tuning."
+        subtitle="St Helens's trusted experts in performance and economy tuning."
       />
 
       <main className="py-20 bg-white">
@@ -17,7 +17,7 @@ const About: React.FC = () => {
           <div className="rounded-3xl border-2 border-brand-red-600/30 bg-white/90 p-10 shadow-xl shadow-gray-200/70">
             <h2 className="text-3xl font-bold text-brand-darker mb-6 tracking-tight">Our Mission</h2>
             <p className="text-gray-600 mb-4 leading-relaxed text-lg">
-              At Renko, our mission is to unlock the true potential of your vehicle through safe, reliable, and professional ECU remapping. We are a team of passionate tuning experts dedicated to providing an unparalleled service to our customers across Southport and Merseyside. We believe that every vehicle can be improved, whether you're seeking breathtaking performance, better fuel economy, or a more responsive and enjoyable drive.
+              At Renko, our mission is to unlock the true potential of your vehicle through safe, reliable, and professional ECU remapping. We are a team of passionate tuning experts dedicated to providing an unparalleled service to our customers across St Helens and Merseyside. We believe that every vehicle can be improved, whether you're seeking breathtaking performance, better fuel economy, or a more responsive and enjoyable drive.
             </p>
             <p className="text-gray-600 leading-relaxed text-lg">
               We stand apart by combining our deep automotive knowledge with the industry's most advanced, genuine tuning technology. We reject generic, off-the-shelf tuning files. Instead, every remap we perform is a custom calibration, meticulously developed for your specific vehicle, ensuring we deliver the best possible results without compromising on safety or reliability.

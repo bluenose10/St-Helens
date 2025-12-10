@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const logo = new URL('../assets/images/remapping-southport.webp', import.meta.url).href;
+const logo = new URL('../assets/images/remapping-sthelens.webp', import.meta.url).href;
 
 const Footer: React.FC = () => {
   return (
@@ -13,18 +13,18 @@ const Footer: React.FC = () => {
             <Link to="/" className="flex items-center gap-3">
               <img
                 src={logo}
-                alt="Renko Remapping Southport"
+                alt="Renko Remapping St Helens"
                 width="40"
                 height="40"
                 className="h-10 w-auto object-contain"
               />
               <div className="sr-only">
                 <h1>Renko</h1>
-                <p>Southport Remaps</p>
+                <p>St Helens Remaps</p>
               </div>
             </Link>
             <p className="text-sm">
-              Southport's leading car remapping and ECU tuning specialists.
+              St Helens's leading car remapping and ECU tuning specialists.
             </p>
           </div>
 
@@ -38,7 +38,7 @@ const Footer: React.FC = () => {
               <Link to="/terms" className="hover:text-brand-red-600 transition-colors">Terms</Link>
               <Link to="/privacy" className="hover:text-brand-red-600 transition-colors">Privacy</Link>
               <a href="https://share.google/pRKIpfVfyfGaiqpTb" target="_blank" rel="noopener noreferrer" className="hover:text-brand-red-600 transition-colors">GMB</a>
-              <a href="https://southport.renkoremapping.co.uk/sitemap.xml" target="_blank" rel="noopener noreferrer" className="hover:text-brand-red-600 transition-colors">Sitemap</a>
+              <a href="https://sthelens.renkoremapping.co.uk/sitemap.xml" target="_blank" rel="noopener noreferrer" className="hover:text-brand-red-600 transition-colors">Sitemap</a>
             </div>
           </div>
           
@@ -46,7 +46,7 @@ const Footer: React.FC = () => {
 
         <div className="mt-12 border-t border-gray-800 pt-8 text-center text-sm">
           <p>&copy; {new Date().getFullYear()} Renko. All Rights Reserved.</p>
-          <p className="text-xs text-gray-400 mt-2">Professional car remapping services in Southport | ECU tuning specialists</p>
+          <p className="text-xs text-gray-400 mt-2">Professional car remapping services in St Helens | ECU tuning specialists</p>
         </div>
       </div>
     </footer>
